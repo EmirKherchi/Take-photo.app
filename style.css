@@ -1,16 +1,12 @@
 /*Media queries tablette portable*/
-@media (max-width: 920px) {
+@media (max-width: 600px) {
   #presentation {
     min-height: 400px !important;
     margin-top: 100px !important;
     font-size: 12px !important;
   }
   #phone {
-    max-width: 400px !important;
-    position: relative;
-    top: 200px;
-    right: 160px;
-    margin-bottom: 150px;
+    display: none !important;
   }
   #first-row {
     display: flex !important;
@@ -45,7 +41,7 @@
     width: 425px !important;
   }
   #big_picture {
-    display: none;
+    display: none !important;
   }
 }
 
