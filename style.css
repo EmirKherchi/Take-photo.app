@@ -1,5 +1,5 @@
-/*Media queries tablette portable*/
-@media (max-width: 600px) {
+/*Media query tablette portable*/
+@media (max-width: 1000px) {
   #presentation {
     min-height: 400px !important;
     margin-top: 100px !important;
